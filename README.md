@@ -36,7 +36,7 @@ It contains only numerical input variables which are the result of a PCA transfo
             <li><a href="#Define y">Define y (dependent or target variable)</a> </li>
             <li><a href="#Normalize X set">Normalize X set</a></li>
             <li><a href="#Define train/test set">Define train/test set: StratifiedShuffleSplit</a></li>
-            <li><a href="#Modeling: LogisticRegression">Modeling: LogisticRegression</a></li>
+            <li><a href="#Modeling:LogisticRegression">Modeling: LogisticRegression</a></li>
             <li><a href="#Predictions">Predictions</a></li>
             <li><a href="#Metrics">Metrics</a>
                 <ol>
