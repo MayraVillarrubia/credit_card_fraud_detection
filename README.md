@@ -24,6 +24,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 * In the entire dataset, there are only 492 fraudulent out of 284,807 transactions.
 
 ### Jupyter Notebook table of contents
+Go to: [Notebook with modeling process](analysis.ipynb)
 
 
 <ol>
