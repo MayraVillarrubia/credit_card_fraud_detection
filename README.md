@@ -91,9 +91,9 @@ Metric: __*Accuracy Score*__
 | __Lb__        | 0.999      |0.923     |
 | __Sag__       | 0.999      |0.923     |
 
-To see the others metris please redirect to: [Notebook with modeling process](analysis.ipynb)
+To see the others metrics please redirect to: [Notebook with modeling process](analysis.ipynb)
 
-When the dataset is unbalanced, when predictin non-fraudulent transactions the precision is 100%. 
+When the dataset is unbalanced, when predicting non-fraudulent transactions the precision is 100%. 
 However when trying to predict fraudulent transactions the precision is about 86%.
 
 ![ classification report](/images/class_report_unb_data.png)
@@ -110,6 +110,7 @@ In this case,  the precision is about 97%.
 1. `Unbalanced-learn`: [API reference](https://imbalanced-learn.org/stable/references/index.html)
 2. `RandomUnderSampler`: [ RUS reference](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.RandomUnderSampler.html)
 3. `StratifiedShuffleSplit`: [ SSS ](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)
+
 ### To do
 - Dimensionality reduction
 - Split train/test set using another approach to compare them with each other: train_test_split
